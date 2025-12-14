@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Drifting clouds - GPU accelerated */
+
 body::before {
     content: '';
     position: absolute;
@@ -37,7 +37,7 @@ body::before {
     to { background-position: 1000px 0; }
 }
 
-/* Grassy hills - GPU accelerated */
+
 body::after {
     content: '';
     position: absolute;
@@ -52,7 +52,7 @@ body::after {
     transform: translateZ(0);
 }
 
-/* Container */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -61,7 +61,6 @@ body::after {
     z-index: 2;
 }
 
-/* Navbar */
 .navbar {
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
@@ -95,7 +94,7 @@ body::after {
 
 .nav-links a:hover { color: #FF8C00; }
 
-/* Hero */
+
 .hero {
     text-align: center;
     padding: 120px 20px 250px;
@@ -124,7 +123,6 @@ body::after {
 
 .btn:hover { transform: scale(1.1); }
 
-/* Campfire image - smooth flicker */
 .campfire-image {
     display: block;
     max-width: 350px;
@@ -144,7 +142,6 @@ body::after {
     100% { transform: translateY(0) scale(1); opacity: 0.98; }
 }
 
-/* Sections */
 .section { padding: 60px 0; position: relative; z-index: 2; }
 .card {
     background: rgba(255, 255, 255, 0.85);
@@ -159,7 +156,6 @@ body::after {
 .section ul { max-width: 700px; margin: 0 auto; text-align: left; font-size: 1.2rem; }
 .section li { margin-bottom: 20px; }
 
-/* Form */
 .registration-form {
     max-width: 500px;
     margin: 30px auto 0;
@@ -184,7 +180,6 @@ body::after {
     cursor: pointer;
 }
 
-/* Footer */
 footer {
     background: rgba(34, 139, 34, 0.9);
     color: white;
@@ -195,7 +190,6 @@ footer {
     z-index: 2;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .hero h1 { font-size: 2.8rem; }
     .big-text { font-size: 1.4rem; }
